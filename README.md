@@ -8,6 +8,12 @@ Imports fgo.json to a postgres db.
 cargo build --release
 ```
 
+### Build ( Docker )
+
+```
+docker build -t fgo-import .
+```
+
 ## Usage
 
 ```

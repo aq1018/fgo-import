@@ -1,4 +1,4 @@
-FROM rust:alpine AS rust-builder
+FROM rust:1.40-alpine AS rust-builder
 RUN apk add --no-cache musl-dev
 ENV RUSTFLAGS="-C target-feature=-crt-static"
 RUN cargo install cargo-build-deps
