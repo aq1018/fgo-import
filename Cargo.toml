@@ -1,5 +1,5 @@
 [package]
-name = "rust-fgo"
+name = "fgo-import"
 version = "0.1.0"
 authors = ["Aaron Qian <aq1018@gmail.com>"]
 edition = "2018"
@@ -8,3 +8,4 @@ edition = "2018"
 postgres = "0.17"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
+clap = "2.33"
